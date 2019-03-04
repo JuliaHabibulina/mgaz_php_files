@@ -7,7 +7,7 @@
     $db = ibase_connect($DB_DATABASE, $DB_USER, $DB_PASSWORD);//соединение с базой данных
             
     if ($db) {
-            //   echo "ibase connected<br/>";
+             echo "ibase connected<br/>";
     } else {
         echo "Ошибка подключения к базе данных СУРГ: ibase notconnected<br/>";
         exit();
