@@ -7,7 +7,7 @@
     $db = ibase_connect($DB_DATABASE, $DB_USER, $DB_PASSWORD);//соединение с базой данных
             
     if ($db) {
-             echo "ibase connected<br/>";
+             echo " База данны подколючена ibase connected<br/>";
     } else {
         echo "Ошибка подключения к базе данных СУРГ: ibase notconnected<br/>";
         exit();
@@ -15,7 +15,7 @@
     error_reporting(E_ALL);
  
  
-   $NOM_ABON=$_POST['NOM_ABON'];
+    $NOM_ABON=$_POST['NOM_ABON'];
     $POK_AKT = $_POST['POK_AKT'];
     $DATE_SVER = $_POST['DATE_SVER'];
     $PRIM = $_POST['PRIM'];
